@@ -1,0 +1,6 @@
+Zadanie 1
+a) Jeżeli żadna z metod w klasie nie ma deklaracji „virtual”, to funkcja Pochodna przesłania funkcję Bazową.
+b) Jeśli metoda wirtualna została zaimplementowana w jakimkolwiek wyższym poziomie dziedziczenia (w szczególności w klasie bazowej całej struktury dziedziczenia), nie jest konieczne podawanie implementacji w klasie pochodnej. Słowo „ override” ma jedynie charakter podkreślenia, że dana metoda w klasie pochodnej przesłania metodę wirtualną z klasy bazowej.
+c) „Final” umożliwia też tworzenie metod "finalnych". 
+W konkretnym przykładzie z zadania, wykonanie kodu w stylu zamieszczonego tam spowoduje również błąd kompilacji przy dziedziczeniu
+ze względu na jego specyfikę. Przesłanianie metod finalnych jest niedozwolone.
